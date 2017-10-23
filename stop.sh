@@ -1,2 +1,3 @@
-﻿docker stop serviciosuma
-docker rm serviciosuma
+echo "Deteniendo ServicioSUma por Rodolfo Arteaga";
+docker stop serviciosuma;
+docker rm serviciosuma;
