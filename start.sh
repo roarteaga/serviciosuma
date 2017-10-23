@@ -1,3 +1,2 @@
-﻿docker build -t serviciosuma .
-docker run -d --name serviciosuma --publish-all serviciosuma
-dotnet serviciosuma
+docker pull roarteaga/serviciosuma
+docker run --name serviciosuma -p:32768:82 serviciosuma
